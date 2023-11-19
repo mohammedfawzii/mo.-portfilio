@@ -18,13 +18,13 @@
     <meta name="theme-color" content="#3063A0">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600" rel="stylesheet">
     <!-- BEGIN PLUGINS STYLES -->
-    <link rel="stylesheet" href="{{ asset('assets/vendor/open-iconic/font/css/open-iconic-bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/vendor/@fortawesome/fontawesome-free/css/all.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/vendor/flatpickr/flatpickr.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/open-iconic-bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/flatpickr.min.css') }}">
     <!-- BEGIN THEME STYLES -->
-    <link rel="stylesheet" href="{{ asset('assets/stylesheets/theme.min.css') }}" data-skin="default">
+    <link rel="stylesheet" href="{{ asset('assets/theme.min.css') }}" data-skin="default">
     {{-- <link rel="stylesheet" href="{{ asset('assets/stylesheets/theme-dark.min.css') }}" data-skin="light"> --}}
-    <link rel="stylesheet" href="{{ asset('assets/stylesheets/custom.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/custom.css') }}">
 </head>
 
 <body>
@@ -41,23 +41,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-    <script src="{{ asset('assets/vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/popper.js/umd/popper.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.min.js') }}"></script>
-    <!-- BEGIN PLUGINS JS -->
-    <script src="{{ asset('assets/vendor/pace-progress/pace.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/stacked-menu/js/stacked-menu.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/flatpickr/flatpickr.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/easy-pie-chart/jquery.easypiechart.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/chart.js/Chart.min.js') }}"></script>
-    <!-- BEGIN THEME JS -->
-    <script src="{{ asset('assets/javascript/theme.min.js') }}"></script>
-    <!-- BEGIN PAGE LEVEL JS -->
-    <script src="{{ asset('assets/javascript/pages/dashboard-demo.js') }}"></script>
 </body>
 
 </html>

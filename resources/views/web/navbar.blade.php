@@ -1,9 +1,7 @@
 <div class="main-nav">
 
     <nav>
-        <div class="main-logo">
-            <p class="logo">Mo.</p>
-        </div>
+        <x-logo/>
         <div>
             <div class="main-navbar-items">
                 <div class="navbar-items">

@@ -1160,3 +1160,44 @@ iframe:hover {
     -webkit-animation: sf-fly-by-3 5s linear infinite;
     animation: sf-fly-by-3 5s linear infinite;
 }
+.layout-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-auth{
+    height: 800px;
+    width: 800px;
+    -o-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main-form  input {
+    width: 300px;
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 450px;
+    justify-content: space-evenly;
+}
+.main-form h2{
+    color:white;
+
+}
+.main-link-form{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.main-form  input:last-child{
+    cursor: pointer;
+}
